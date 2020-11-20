@@ -1,0 +1,23 @@
+{
+  "name": "amazon-availability-checker",
+  "version": "1.0.0",
+  "description": "Bot that checks the availability of items in Amazon",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/derek-diaz/Amazon-Availability-Checker.git"
+  },
+  "author": "Derek Diaz Correa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/derek-diaz/Amazon-Availability-Checker/issues"
+  },
+  "homepage": "https://github.com/derek-diaz/Amazon-Availability-Checker#readme",
+  "dependencies": {
+    "amazonproductscraper": "^1.0.3",
+    "twilio": "^3.52.0"
+  }
+}
