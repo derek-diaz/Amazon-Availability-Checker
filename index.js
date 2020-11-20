@@ -21,9 +21,6 @@ async function checkAvailability() {
     var item = await new Product(ITEM).init();
     var time = new Date();
 
-    TO_PHONES.forEach(p => console.log(p));
-
-
     console.log("---------------------------------------------------")
     console.log("Time Stamp:",
         time.toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', hour12: true })
